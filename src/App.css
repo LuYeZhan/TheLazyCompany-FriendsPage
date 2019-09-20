@@ -10,6 +10,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -83,12 +85,35 @@ a {
   flex-direction: column;
 }
 
-.container {
-  margin: 0 20px;
+.cards {
+  text-align: center;
+  border: 1px solid black;
+  width: 18%;
+  border-radius: 8px;
+  background-color: #f1f3f4;
+  margin: 0 auto;
+}
+
+.container{
+  padding: 0 20px;
 }
 
 .flex {
   display: flex;
+}
+
+.logo {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 45px;
+}
+
+.middle-padding{
+  padding: 20px 0px ;
+}
+
+.back-padding {
+ padding-bottom: 20px;
 }
 
 .section {
