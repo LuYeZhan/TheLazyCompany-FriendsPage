@@ -88,7 +88,8 @@ a {
 .cards {
   text-align: center;
   border: 1px solid black;
-  width: 18%;
+  width: 22%;
+  height: 255px;
   border-radius: 8px;
   background-color: #f1f3f4;
   margin: 0 auto;
@@ -101,11 +102,21 @@ a {
 .flex {
   display: flex;
 }
-
+.footer-padding {
+  padding-top: 20px;
+}
 .logo {
   position: absolute;
   color: rgba(255, 255, 255, 0.8);
   padding-left: 45px;
+}
+
+.lu-picture{
+  width: 40%;
+  border: 5mm ridge rgba(0, 0, 128, .6);
+}
+.lu-picture:hover{
+  width:50%;
 }
 
 .middle-padding{

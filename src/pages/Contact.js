@@ -6,7 +6,7 @@ export class Contact extends Component {
             <div class="flex column center">
                 <h1>Contact page</h1>
                 <a className="back-padding" href="/"> back </a>
-                <p> wanna contact us? send a mail to hola@hooli.store</p>
+                <p> Say hi to us. If it's boring, you'll go directly to git.ignore . send a mail to hola@hooli.store</p>
             </div>
         )
     }
