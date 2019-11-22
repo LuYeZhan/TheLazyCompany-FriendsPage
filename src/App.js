@@ -9,7 +9,7 @@ import Jobs from './pages/Jobs'
 import AnonRoute from './components/AnonRoute';
 import './App.css';
 import {BrowserRouter as Router, Switch} from 'react-router-dom';
-
+// const lu = require("@console.lu/console.lu");
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <AnonRoute path="/blog" exact component= {Blog}/>
           <AnonRoute path="/jobs" exact component= {Jobs}/>
           <AnonRoute path="/contact" exact component= {Contact}/>
+          {/* {lu('pepe')} */}
         </Switch>
       </Router>
     </div>
